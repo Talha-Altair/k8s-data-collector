@@ -1,0 +1,13 @@
+version: "3"
+
+services:
+  
+  kijiji:
+
+    build: .
+
+    volumes:
+      - .:/app
+
+    ports:
+      - "9000:9000"

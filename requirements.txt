@@ -1,0 +1,8 @@
+requests
+beautifulsoup4
+flask
+psutil
+lxml
+pymongo
+dnspython
+python-dotenv

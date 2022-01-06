@@ -41,6 +41,8 @@ def collect_car_data():
 
             j.pop('_id')
 
+    stress()
+
     return jsonify(all_data)
 
 @app.route('/view', methods=['GET', 'POST'])

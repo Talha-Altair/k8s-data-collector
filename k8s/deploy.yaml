@@ -18,6 +18,9 @@ spec:
         image: docker.io/talhaabdurrahman/kijiji-collector:v2
         ports:
         - containerPort: 9000
+        envfrom:
+        - configMapRef:
+            name: mongo-uri
 ---
 apiVersion: v1
 kind: Service
